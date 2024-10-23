@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+
+
+body{
+    background-image:url(img/download.jpg);
+    
+}
+
+
+
+
+
+
+/*Her kommer styling til min navn bar*/
+.pil_billede{
+    width: 50px;
+    
+
+}
+
+.pokemons{
+    display: flex;
+    width: 320px;
+    height: 342px;
+}
+
+
+
+
+
+
+nav li{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+   
+    
+    
+}
+
+
+
+
+
+/*Her kommer styling til indholdet*/
+
+.box{
+    display: flex;
+}
+#pokemon-list{
+    
+    font-size: 30px;
+    text-decoration: none;
+    background-color: pink;
+    /* background-color: pink; */
+    width: 500px;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 15px 40px rgba(0.3, 0.3, 0.3, 0.8);
+    border-radius: 18px;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;;
+    background: linear-gradient(blue, red);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li img{
+    width: 600px;
+}
+
+.midt_billede, img{
+    width: 100%;
+    
+}
+
+/* Her er lidt styling til mine skifte knapper*/
+
+#prev-btn{
+height: 30px;
+width: 80px;
+}
+#next-btn{
+    height: 30px;
+    width: 80px;
+}
